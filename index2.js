@@ -9,28 +9,28 @@ setInterval(function(){
 
 	if (Timer == 6)
 	{
-		document.getElementById('ImgBackground').src = "img/Dance2.jpg";
+		document.getElementById('ImgBackground').src = "Dance2.jpg";
 		text1.style.visibility = "hidden";
 		text2.style.visibility = "visible";
 		document.getElementById("changetitle").innerHTML = "The Dzilla of the Ndebele nation";
 	}
 	else if (Timer == 12)
 	{
-		document.getElementById('ImgBackground').src = "img/Dance3.jpg";
+		document.getElementById('ImgBackground').src = "Dance3.jpg";
 		text2.style.visibility = "hidden";
 		text3.style.visibility = "visible";
 		document.getElementById("changetitle").innerHTML = "The Sokkie Dance of the afrikaners";
 	}
 	else if (Timer == 18)
 	{
-		document.getElementById('ImgBackground').src = "img/Dance4.jpg";
+		document.getElementById('ImgBackground').src = "Dance4.jpg";
 		text3.style.visibility = "hidden";
 		text4.style.visibility = "visible";
 		document.getElementById("changetitle").innerHTML = "The cape minstrels of the cape malay people";
 	}
 	else if (Timer == 24)
 	{
-		document.getElementById('ImgBackground').src = "img/Dance.jpg";
+		document.getElementById('ImgBackground').src = "Dance.jpg";
 		text4.style.visibility = "hidden";
 		text1.style.visibility = "visible";
 		document.getElementById("changetitle").innerHTML = "The ingoma dance of the Zulu nation";
