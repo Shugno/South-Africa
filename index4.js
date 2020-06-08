@@ -73,20 +73,20 @@ setInterval(function(){
 
 	if (Timer == 10)
 	{
-		document.getElementById('ImgBackground').src = "img/Tradition.jpg";
+		document.getElementById('ImgBackground').src = "Tradition.jpg";
 		text1.style.visibility = "hidden";
 		text2.style.visibility = "visible";
 	}
 	else if (Timer == 22)
 	{
-		document.getElementById('ImgBackground').src = "img/africacool.png";
+		document.getElementById('ImgBackground').src = "africacool.png";
 		text2.style.visibility = "hidden";
 		text3.style.visibility = "visible";
 	}
 
 	else if (Timer == 34)
 	{
-		document.getElementById('ImgBackground').src = "img/finbild.jpg";
+		document.getElementById('ImgBackground').src = "finbild.jpg";
 		text4.style.visibility = "hidden";
 		text1.style.visibility = "visible";
 		Timer = 0;	
