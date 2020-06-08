@@ -1,0 +1,312 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Chelsea Market', cursive;
+	color: white;
+}
+
+#BigImg
+{
+	height: 100vh;
+	width: 99.12vw;
+}
+
+#TopDiv
+{
+	height: 11vh;
+	width: 99.12vw;
+	position: absolute;
+}
+
+.WebSiteName
+{
+	height: 10.7vh;
+	width: 30.8vw;
+
+	border: 1px solid lightgrey;
+	border-right: 0px;
+	float: left;
+}
+
+.WebSiteName > h1
+{
+	text-align: center;
+	font-size: 35px;
+
+	position: relative;
+	top: 3vh;
+}
+
+#TopMiddle
+{
+	height: 10.7vh;
+	width: 37.1vw;
+
+	border: 1px solid lightgrey;
+	float: left;
+}
+
+.Credit
+{
+	height: 3.57vh;
+	width: 30.7vw;
+
+	float: left;
+	position: relative;
+}
+
+#Rope1
+{
+	position: absolute;
+	margin-left: 8vw;
+	margin-bottom: 5vh;
+	transform: rotateZ(-25deg);
+}
+
+#Rope2
+{
+	position: absolute;
+	margin-left: 14.2vw;
+	transform: rotateZ(90deg);
+}
+
+#Rope3
+{
+	position: absolute;
+	margin-left: 18vw;
+	transform: rotateZ(30deg);
+}
+
+.Names
+{
+	display: flex;
+	float: left;
+	margin-left: 3vw;
+	padding-right: 0.2vw;
+}
+
+#Info
+{
+	width: 37vw;
+	height: 5.35vh;
+	position: relative;
+}
+
+#CurrentSite
+{
+	font-size: 30px;
+	position: absolute;
+
+	margin-left: 15vw;
+	margin-top: 0.5vh;
+
+	width: 15vw;
+}
+
+.btn
+{
+    text-decoration: none;
+    font-size: 25px;
+    height: 5.2vh;
+    width: 12.325vw;
+    color: white;
+    border: 1px solid lightgrey;
+    border-right: 0px;
+    text-align: center;
+    float: left;
+    position: sticky;
+    text-transform: uppercase;
+}
+
+
+.btn:hover
+{
+    color: black;
+    background-color: white;
+    opacity: 1;
+}
+
+.btn:active{
+    background-color: gray;
+}
+
+.ImgText
+{
+	position: absolute;
+	margin-left: 32vw;
+
+	bottom: 50vh;
+	width: 43vw;
+
+	height: 14vh;
+	visibility: hidden;
+}
+
+#nextDiv
+{
+	position: absolute;
+	height: 45vh;
+	width: 99.12vw;
+	background: rgb(241, 241, 241);
+}
+
+#roundImg
+{
+	position: absolute;
+	margin-left: 3vw;
+
+	margin-top: 30vh;
+	border-radius: 90%;
+
+	height: 20vh;
+	width: 20vw;
+}
+
+#roundImg:hover
+{
+	transform: rotateZ(0deg);
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+}
+
+#roundImg:not(:hover)
+{
+	transform: rotateZ(-360deg);
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+}
+
+#img1Text
+{
+	width: 0vw;
+	height: 15vh;
+
+	background-color: red;
+	position: absolute;
+
+	margin-left: 23vw;
+	margin-top: 33vh;
+
+	border-radius: 20%;
+}
+
+#img2Text
+{
+	width: 0vw;
+	height: 15vh;
+
+	background-color: red;
+	position: absolute;
+
+	left: 73vw;
+	bottom: 55vh;
+	border-radius: 20%;
+}
+
+#img3Text
+{
+	width: 0vw;
+	height: 15vh;
+
+	background-color: red;
+	position: absolute;
+
+	left: 73vw;
+	bottom: 6vh;
+	border-radius: 20%;
+}
+
+#img4Text
+{
+	width: 0vw;
+	height: 15vh;
+
+	background-color: red;
+	position: absolute;
+
+	left: 23vw;
+	bottom: 10vh;
+	border-radius: 20%;
+}
+
+#animText1
+{
+	width: 40vw;
+	height: 2vh;
+
+	position: absolute;
+	margin-left: 4vw;
+	margin-top: 2vh;
+
+	font-size: 17px;
+	visibility: hidden;
+	color: black;
+}
+
+#nextDiv > div
+{
+	width: 99vw;
+	height: 51vh;
+
+	position: relative;
+	bottom: 12vh;
+}
+@media only screen and (max-height: 500px)
+{
+	.WebSiteName
+	{
+		border: 0px;
+	}
+
+	#TopMiddle
+	{
+		border: 0px;
+	}
+
+	.btn
+	{
+		border: 0;
+	}
+}
+@media only screen and (max-width: 1425px)
+{
+	.WebSiteName
+	{
+		width: 30.55vw;
+		height: 16.5vh;
+		display: inline-block;
+	}
+
+	#TopMiddle
+	{
+		height: 16.5vh;
+	}
+
+	.btn
+	{
+		width: 10.6vw;
+		margin-top: 5.55vh;
+
+		font-size: 9.2px;
+		border-right: 1px solid lightgrey;
+		padding-right: 1.35vw;
+	}
+
+	#CurrentSite
+	{
+		font-size: 25px;
+		margin-top: 2vh;
+		right: 15vw;
+	}
+
+	.ImgText
+	{
+		font-size: 22px;
+	}
+
+	#title
+	{
+		margin-top: 11vh;
+		padding-bottom: 5vh;
+		font-size: 15px;
+	}
+}

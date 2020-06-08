@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Chelsea Market';
+	color: white;
+}
+
+#text
+{
+	padding: 20vw;
+	font-size: 35px;
+}
+
+#BigImg
+{
+	height: 100vh;
+	width: 99.12vw;
+}
+
+#InfoNews
+{
+    text-align: center; 
+}
+
+#TopDiv
+{
+	height: 11vh;
+	width: 99.12vw;
+	position: absolute;
+}
+
+.WebSiteName
+{
+	height: 10.7vh;
+	width: 30.8vw;
+
+	border: 1px solid lightgrey;
+	border-right: 0px;
+	float: left;
+}
+
+.WebSiteName > h1
+{
+	text-align: center;
+	font-size: 35px;
+
+	position: relative;
+	top: 3vh;
+}
+
+.Credit
+{
+	height: 3.57vh;
+	width: 30.7vw;
+
+	float: left;
+	position: relative;
+}
+
+#Rope1
+{
+	position: absolute;
+	margin-left: 8vw;
+	margin-bottom: 5vh;
+	transform: rotateZ(-25deg);
+}
+
+#Rope2
+{
+	position: absolute;
+	margin-left: 14.2vw;
+	transform: rotateZ(90deg);
+}
+
+#Rope3
+{
+	position: absolute;
+	margin-left: 18vw;
+	transform: rotateZ(30deg);
+}
+
+.Names
+{
+	display: flex;
+	float: left;
+	margin-left: 3vw;
+	padding-right: 0.2vw;
+}
+
+#TopMiddle
+{
+	height: 10.7vh;
+	width: 37.1vw;
+
+	border: 1px solid lightgrey;
+	float: left;
+}
+
+#Info
+{
+	width: 37vw;
+	height: 5.35vh;
+}
+
+#CurrentSite
+{
+	font-size: 30px;
+	position: absolute;
+
+	margin-left: 15vw;
+	margin-top: 0.7vh;
+
+	width: 7vw;
+}
+
+.btn
+{
+    text-decoration: none;
+    font-size: 25px;
+    height: 5.2vh;
+    width: 12.325vw;
+    color: white;
+    border: 1px solid lightgrey;
+    border-right: 0px;
+    text-align: center;
+    float: left;
+    position: sticky;
+    text-transform: uppercase;
+}
+
+
+.btn:hover
+{
+    color: black;
+    background-color: white;
+    opacity: 1;
+}
+
+.btn:active{
+    background-color: gray;
+}
+
+.ImgText
+{
+	position: absolute;
+	left: 28vw;
+
+	bottom: 50vh;
+	width: 43vw;
+
+	height: 14vh;
+	visibility: hidden;
+}
+
+#title
+{
+	position: absolute;
+	border: 1px solid lightgrey;
+	border-top: 0px;
+
+	margin-top: 5.6vh;
+	height: 5vh;
+	width: 37vw;;
+}
+
+@media only screen and (max-height: 500px)
+{
+	.WebSiteName
+	{
+		border: 0px;
+	}
+
+	#TopMiddle
+	{
+		border: 0px;
+	}
+
+	.btn
+	{
+		border: 0;
+	}
+}
+@media only screen and (max-width: 1425px)
+{
+	.WebSiteName
+	{
+		width: 30.55vw;
+		height: 16.5vh;
+		display: inline-block;
+	}
+
+	#TopMiddle
+	{
+		height: 16.5vh;
+	}
+
+	.btn
+	{
+		width: 10.6vw;
+		margin-top: 5.55vh;
+
+		font-size: 9.2px;
+		border-right: 1px solid lightgrey;
+		padding-right: 1.35vw;
+	}
+
+	#CurrentSite
+	{
+		font-size: 25px;
+		display: flex;
+
+		justify-content: center;
+		margin-top: 3vh;
+	}
+
+	.ImgText
+	{
+		font-size: 22px;
+	}
+
+	#title
+	{
+		margin-top: 11vh;
+		padding-bottom: 5vh;
+		font-size: 15px;
+	}
+}

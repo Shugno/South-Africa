@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    overflow: hidden;
+    font-family: 'Chelsea Market';
+}
+
+
+#Background
+{
+	height: 100vh;
+	width: 100vw;	
+}
+
+#ImgBackground
+{
+	height: 100vh;
+	width: 100vw;
+}
+
+#TopDiv
+{
+	height: 11vh;
+	width: 100vw;
+	position: absolute;
+}
+
+.WebSiteName
+{
+	height: 10.7vh;
+	width: 31.3vw;
+
+	border: 1px solid lightgrey;
+	float: left;
+}
+
+span
+{
+	text-align: center;
+	font-size: 17px;
+
+	position: relative;
+	top: 3vh;
+}
+
+#TopMiddle
+{
+	height: 10.7vh;
+	width: 37.1vw;
+
+	border: 1px solid lightgrey;
+	float: left;
+}
+
+#Info
+{
+	width: 37vw;
+	height: 5.35vh;
+}
+
+#InfoNews
+{
+    text-align: center; 
+}
+
+#Search
+{
+	position: absolute;
+	float: right;
+
+	margin-left: 32vw;
+	margin-top: 1.15vh;
+	cursor: pointer;
+}
+
+.btn
+{
+    text-decoration: none;
+    font-size: 25px;
+    height: 5.2vh;
+    width: 12.325vw;
+    color: white;
+    border: 1px solid lightgrey;
+    border-right: 0px;
+    text-align: center;
+    float: left;
+    position: sticky;
+    text-transform: uppercase;
+}
+
+
+.btn:hover
+{
+    color: black;
+    background-color: white;
+    opacity: 1;
+}
+
+.btn:active{
+    background-color: gray;
+}
+
+#empty
+{
+	width: 31.1vw;
+}
+
+#introduction {
+    background-color: transparent;
+    width: 25vw;
+    height: 12vh;
+    z-index: 5;
+    position: absolute;
+    margin-top: 15vh;
+    margin-left: 39vw;
+    border: 0px white solid;
+}
+
+.text {
+    font-size: 18px;
+    padding: 3px;
+}
+
+.box {
+    background-color: transparent;
+    width: 20vw;
+    height: 13vh;
+    z-index: 5;
+    position: absolute;
+    margin-top: 50vh;
+    margin-left: 4vw;
+    border: 0px white solid;
+    
+    
+}
+
+.a {
+    margin-left: 42vw;
+}
+
+.b {
+    margin-left: 76vw;
+}
+
+.rubrik {
+    background-color: transparent;
+    width: 20vw;
+    height: 5vh;
+    z-index: 5;
+    position: absolute;
+    margin-top: 45vh;
+    margin-left: 4vw;
+    border: 0px black solid;
+    text-decoration: underline;
+}
+
+.c {
+    margin-left: 42vw;
+}
+
+.d {
+    margin-left: 76vw;
+}
+
+#title {
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+#text2 {
+    font-size: 25px;
+    padding: 10px
+}
+
+.e {
+    width: 24vw;
+    height: 15vh;
+    margin-left: 39vw;
+    margin-top: 29vh;
+    border: 0px white solid;
+}
+
+#text3 {
+    font-size: 17px;
+    padding: 5px;
+    margin: 2px;
+}
